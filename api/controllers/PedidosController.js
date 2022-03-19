@@ -13,4 +13,4 @@ class PedidosController {
 
 }
 
-module.exports = PessoaController
+module.exports = PedidosController
