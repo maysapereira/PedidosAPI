@@ -14,3 +14,5 @@ const port = 5000
 app.listen(port, () => {
     console.log(`API rodando na porta ${port} na tranquilidade`)
 })
+
+module.exports = app 
