@@ -2,7 +2,7 @@
   "name": "pedidosapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./api/index.js",
   "scripts": {
     "start": "nodemon ./api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,6 +29,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  },
-  "type": "module"
+  }
 }
