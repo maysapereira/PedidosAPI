@@ -7,5 +7,6 @@ router.post('/pedidos', PedidosController.criaPedido)
 router.get('/pedidos', PedidosController.pegaPedidos)
 router.get('/pedidos/:id', PedidosController.pegaUmPedido)
 router.put('/pedidos/:id', PedidosController.atualizaPedido)
+router.delete('/pedidos/:id', PedidosController.deletaPedido)
 
 module.exports = router

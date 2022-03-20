@@ -59,6 +59,24 @@ class PedidosController {
             return res.status(500).json(error.mensage)
         }
     }
+
+    //Delete
+    static async deletaPedido(req, res){
+        const { id } = req.params
+        try{
+            await database.Pedidos.destroy( {
+                where: {
+                    id: Number(id)
+            }
+        })
+        return res.status(200).json(
+            {
+                mensagem: `O pedido de id ${id} foi deletado`
+            })
+        } catch (error) {
+            return res.status(200).json(pedidoAtualizado)
+        }
+    }
 }
 
 module.exports = PedidosController
