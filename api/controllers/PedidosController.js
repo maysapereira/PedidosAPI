@@ -1,8 +1,19 @@
 const database = require('../models')
 
-
-//Read
 class PedidosController {
+    //Create
+
+    static async criaPedido(req, res) {
+        const novoPedido = req.body
+        try {
+            const pedidoCriado = await database.Pedidos.create(novoPedido)
+            return res.status(200).json(pedidoCriado)
+        } catch {
+            return res.status(500).json(error.message)
+        }
+    }
+
+    //Read
     static async pegaPedidos(req, res){
         try{
             const todosOsPedidos = await database.Pedidos.findAll()

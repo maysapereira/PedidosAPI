@@ -3,6 +3,7 @@ const PedidosController = require('../controllers/PedidosController')
 
 const router = Router()
 
+router.post('/pedidos', PedidosController.criaPedido)
 router.get('/pedidos', PedidosController.pegaPedidos)
 router.get('/pedidos/:id', PedidosController.pegaUmPedido)
 
