@@ -63,11 +63,11 @@ npm start
 
 A entidade que trabalhei foi a **Pedidos** da Hamburgueria. Segue as rotas utilizadas:
 
-[GET] /Pedidos - A rota exibirá todos Pedidos cadastrados
-[GET] /Pedidos/:id - Busca apenas um o pedido baseado em seu ID
-[POST] /Pedidos/criar - A rota cria um novo pedido com base nas informações passadas no corpo da requisição.
+**[GET]** /Pedidos - A rota exibirá todos Pedidos cadastrados <br>
+**[GET]** /Pedidos/:id - Busca apenas um o pedido baseado em seu ID  <br>
+**[POST]** /Pedidos/criar - A rota cria um novo pedido com base nas informações passadas no corpo da requisição. <br>
 
-**Observação:** o id é criado automaticamente com a ajuda do Sequelize
+**Observação:** o id é criado automaticamente com a ajuda do Sequelize <br>
 
-[PUT] /Pedidos/:id - A rota atualizará um Pedido com as informações passadas no corpo da requisição
-[DELETE] /Pedidos/:id - A rota deletará um pedido baseado em seu ID.
+**[PUT]** /Pedidos/:id - A rota atualizará um Pedido com as informações passadas no corpo da requisição <br>
+**[DELETE]** /Pedidos/:id - A rota deletará um pedido baseado em seu ID.
