@@ -24,6 +24,10 @@ Para o desenvolvimento foi utilizado **JavaScript** com **NodeJS** como linguage
 
 O editor de código utilizado foi o **VSCode Studio** e para testes durante o desenvolvimento foram utilizadas o framework nodemon e o API Design Tool **Insomnia**
 
+### Observação importante sobre a aplicação
+
+Por conta da utilização do banco de dados MySQL talvez a API não rode por um erro de usuário. Caso isso ocorra mude o usuário para o usuário MySQL e sua respectiva senha no arquivo (config.json)[https://github.com/maysapereira/PedidosAPI/blob/main/api/config/config.json]
+
 # Dependências
 
 ```.json
